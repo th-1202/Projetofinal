@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+    <link rel="stylesheet" href="css/STYLE.CSS">
+</head>
+<body>
+    <header id="header">
+        <h3>avaliar seu IMC</h3>
+    </header>
+    <div class="container">
+        <h1>IMC</h1>
+        <input type="number" id="peso" placeholder="Peso (kg)">
+        <input type="number" step="0.01" id="altura" placeholder="Altura (m)">
+        <button onclick="calcularIMC()">Calcular</button>
+        <div id="resultado"></div>
+        <ul>
+          <li>17,0  18,4: Abaixo</li>
+          <li>18,5  24,9: Normal</li>
+          <li>25,0  29,9: Sobrepeso</li>
+          <li>30,0  34,9: Obesidade I</li>
+          <li>35,0  39,9: Obesidade II</li>
+        </ul>
+      </div>
+    <footer id="footer">
+        <h3>&copy; IMC - todos os direitos reservados a Thiago Damacena</h3>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
